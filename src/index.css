@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Noto Sans', sans-serif;
+}
+h1{
+  font-weight: 800!important;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #656464;
+}
+img{
+  width: 100%;
+}
+/* Navbar Css */
+.logo{
+  height: 30px;
+}
+a.nav-link{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0 15px;
+  color: #3c3b3b;
+  letter-spacing: 1px;
+}
+/* Header */
+.Header-row{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.Header{
+  background-image: url('./img/Animated-Shape.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title-col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-title h3{
+  color: #3c3b3b;
+  font-size: 32px;
+  font-weight: 300;
+}
+.header-title h1{
+  font-size: 50px;
+  color: #000;
+  letter-spacing: 3px;
+}
+/* Offer */
+.title h4{
+  font-size: 30px;
+  color: #000;
+  font-weight: 800;
+}
+.title h4:after{
+  content: '';
+  display: block;
+  width: 100px;
+  background-color: #d04140;
+  height: 2px;
+  margin: 0 auto;
 }
