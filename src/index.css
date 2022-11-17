@@ -14,6 +14,7 @@ p{
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #656464;
+  font-weight: 300;
 }
 img{
   width: 100%;
@@ -69,4 +70,141 @@ a.nav-link{
   background-color: #d04140;
   height: 2px;
   margin: 0 auto;
+}
+.offer-row-col{
+  padding: 15px 15px;
+  display: flex;
+  box-shadow: 0px 0px 6px 0px #cdc9c9;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.offer-img img{
+  width: 352px;
+  max-width: 100%;
+}
+.offer-desc{
+  padding: 0px 30px;
+}
+.offer-desc h3{
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 15px;
+}
+.services{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: center;
+}
+.serviceImg img{
+  width: 101px;
+  max-width: 100%;
+}
+.serviceImg p{
+  font-size: 12px;
+  color: #555;
+  font-weight: 600;
+  line-height: 16px;
+}
+/* Gallery */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+/* Testimonials */
+/* Project */
+.Project{
+  background-color: #f17983;
+  margin: 45px 0px;
+}
+.projectImg img{
+  width: 344px;
+  max-width: 100%;
+}
+.projectDesc h2{
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.projectDesc button{
+  font-size: 19px;
+  color: #fff;
+  background-color: transparent;
+  padding: 4px 20px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+}
+.projectCol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Fooetr */
+.icons ul,
+.footer-menu ul,
+.footerImg ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.icons ul li svg{
+  font-size: 36px;
+  color: #b8b3b3;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+.footer-menu ul li{
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  padding: 0px 38px;
+}
+.FooterPara{
+  color: #3c3b3b;
+  font-size: 20px;
+  margin-top: 0;
+  text-align: center;
+  font-weight: 400;
+}
+.copyrightlogo img{
+  width: 16px;
+}
+.copyrightlogo{
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3c3b3b;
 }
